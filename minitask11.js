@@ -40,3 +40,5 @@ async function jalankanAsync() {
     console.error(error);
   }
 }
+
+jalankanAsync();
