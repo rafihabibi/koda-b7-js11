@@ -1,12 +1,12 @@
-function menapillkanNama(nama, waktuTunggu) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      
-      hasil1 = name
-      resolve("John")
-      waktuTunggu(1500)
-      
-    });
-    
-  })
+function menampilkanNama(nama, waktu){
+    return new Promise((resolve, reject) => {
+        setTimeout( () => {
+            const name1 = await
+            nama("John")
+            waktu(1500)
+        });
+        
+    })
 }
+
+async
